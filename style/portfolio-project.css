@@ -5,8 +5,14 @@ h1, h2, p{
 
 
 .hero {
-    background: url(/Images/bg.png), lightgray 0px,  ;
-    color:white;
+    background-image: url('../Images/bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: white;
+    flex-shrink: 0;
+    height: 900px;
+    width: 1440px;
+    background-position: 0%;
     text-align:center;
     padding:160px 20px; 
     font-size:36px;
@@ -17,7 +23,7 @@ h1, h2, p{
 
 .btn-branding {
     border-radius:50px;
-    background:#FFF;
+    color: white;
     display: flex;
     width: 200px;
     padding: 18px 30px;
