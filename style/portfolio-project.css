@@ -5,20 +5,18 @@ h1, h2, p{
 
 
 .hero {
-    background-image: url('../Images/bg.png');
+    background-image: url("../Images/bg.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: white;
-    flex-shrink: 0;
-    height: 900px;
-    width: 1440px;
     background-position: 0%;
-    text-align:center;
-    padding:160px 20px; 
-    font-size:36px;
-    font-weight:bold;
-    margin:0;
-}
+    text-align: center;
+    padding: 160px 20px;
+    padding-bottom: 100%;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+  }
 
 
 .btn-branding {
