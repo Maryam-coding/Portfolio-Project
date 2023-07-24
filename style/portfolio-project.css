@@ -1,6 +1,7 @@
-h1, h2, p{
+h1, h2, p, span {
     font-family: 'Roboto', sans-serif;
     text-align:center;
+    color:whitesmoke;
 }
 
 
