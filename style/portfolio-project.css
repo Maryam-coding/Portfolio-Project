@@ -4,7 +4,9 @@ h1, h2, p, span {
     color:whitesmoke;
 }
 
-
+footer{
+    color:black;
+}
 .hero {
     background-image: url("../Images/pakistaniboy.jpg");
     background-repeat: no-repeat;
@@ -15,7 +17,7 @@ h1, h2, p, span {
     width:100%;
     height:auto;
     text-align: center;
-    padding: 160px 20px;
+    padding: 180px 100px;
     padding-bottom: 100%;
     font-size: 36px;
     font-weight: bold;
