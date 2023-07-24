@@ -5,10 +5,11 @@ h1, h2, p{
 
 
 .hero {
-    background-image: url("../Images/bg.png");
+    background-image: url("../Images/pakistaniboy.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: white;
+    background-size: cover;
     background-position: 0%;
     width:100%;
     height:auto;
@@ -38,4 +39,9 @@ h1, h2, p{
     .hero {
         background-position: center;
     }
+}
+
+img{
+    max-width:100;
+    height:auto;
 }
