@@ -31,3 +31,9 @@ h1, h2, p{
     color:#272142;
     font-family: 'Montserrat', sans-serif;
 }
+
+@media(max-width:600px){
+    .hero {
+        background-position: center;
+    }
+}
