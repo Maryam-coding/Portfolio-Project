@@ -4,7 +4,7 @@ h1, h2, p, span {
     color:whitesmoke;
 }
 body {
-    background-color: rgb(195, 154, 104);
+    background-color: rgb(204, 223, 249);
 }
 
 footer{
@@ -27,27 +27,42 @@ footer{
     margin: 0;
   }
 
+ .about-section-content h1{
+    font-style: capitalise;
+    font-size: 64px;
+    color:red;
+    } 
+.about-section-content h2{
 
-.btn-branding {
-    border-radius:50px;
-    color: white;
-    display: flex;
-    width: 200px;
-    padding: 18px 30px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    color:#f1f0f6;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+
 }
 
-@media(max-width:600px){
+.about-section-content {
+    margin: 30px;
+}
+
+.btn-branding {
+    background-color: aliceblue;
+    border-radius: 50px;
+    color:black;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 18px 30px 18px 30px;
+    gap:10px;
+}
+
+@media(max-width:600px) {
     .hero {
         background-position: center;
     }
+    .about-section-content {
+        text-align:center;
+        padding:0;
+    }
 }
 
-img{
+img {
     max-width:100;
     height:auto;
 }
